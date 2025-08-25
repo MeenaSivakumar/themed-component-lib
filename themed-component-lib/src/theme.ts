@@ -34,3 +34,7 @@ export const darkTheme = {
   background: "#1a1a1a",
   text: "#ffffff",
 };
+export type ThemeType = typeof lightTheme;
+declare module "styled-components" {
+  export interface DefaultTheme extends ThemeType {}
+}

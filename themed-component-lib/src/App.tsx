@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import "./App.css";
 import { useState } from "react";
-import { Button, Card, ModalOverlay, NavBar } from "./components";
+import { Button, Card, ModalOverlay, NavBar } from ".";
 import { darkTheme, GlobalStyle, lightTheme } from "./theme";
 
 function App() {
